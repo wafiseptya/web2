@@ -12,5 +12,17 @@
 */
 
 Route::get('/', function () {
+    return view('quote');
+});
+
+Route::get('/welcome', function () {
     return view('welcome');
+});
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/base', function () {
+    return view('base');
 });
