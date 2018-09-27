@@ -13,13 +13,19 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-image: img/bg.jpg;
-                color: #636b6f;
-                padding: 0 5em;
+                color: #fff;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+            }
+
+            body {
+
+                  padding: 0 5em;
+                  background-image: url("/img/bg.jpg");
+                  background-repeat: no-repeat;
+                  background-size: cover;
             }
 
             .full-height {
