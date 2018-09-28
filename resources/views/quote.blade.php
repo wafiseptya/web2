@@ -56,6 +56,10 @@
                 font-size: 54px;
             }
 
+            span {
+              font-size: 0.8em;
+            }
+
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
@@ -85,8 +89,9 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
+                <div class="title m-b-md" id="quote">
 					             {{ \Illuminate\Foundation\Inspiring::quote() }}
+
                 </div>
             </div>
         </div>
