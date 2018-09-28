@@ -26,3 +26,15 @@ Route::get('/index', function () {
 Route::get('/base', function () {
     return view('base');
 });
+
+Route::get('/page-one', function () {
+    return view('pageOne');
+});
+
+Route::get('/page-two', function () {
+    return view('pageTwo');
+});
+
+
+Route::resource('page', 'test');
+Route::get('test/tambah', 'test@tambah');

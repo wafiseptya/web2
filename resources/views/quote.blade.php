@@ -23,7 +23,7 @@
             body {
 
                   padding: 0 5em;
-                  background-image: url("/img/bg.jpg");
+                  background-image: url("/assets/img/bg.jpg");
                   background-repeat: no-repeat;
                   background-size: cover;
             }
