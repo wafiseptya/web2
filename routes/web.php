@@ -35,6 +35,11 @@ Route::get('/page-two', function () {
     return view('pageTwo');
 });
 
+Route::get('/admin', function () {
+    return view('template/template');
+});
+
+
 
 Route::resource('page', 'test');
 Route::get('test/tambah', 'test@tambah');
