@@ -9,7 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-
+        <link rel="stylesheet" href="{{ asset("assets/css/web-bank-main.css") }}">
         <!-- Styles -->
         <style>
             html, body {
@@ -23,7 +23,7 @@
             body {
 
                   padding: 0 5em;
-                  background-image: url("/assets/img/bg.jpg");
+                  background-image: url( {{ asset("/assets/img/bg.jpg") }}  );
                   background-repeat: no-repeat;
                   background-size: cover;
             }
@@ -90,8 +90,9 @@
 
             <div class="content">
                 <div class="title m-b-md" id="quote">
+                    <a href="/base" class="link-no-style wh">
 					             {{ \Illuminate\Foundation\Inspiring::quote() }}
-
+                    </a>
                 </div>
             </div>
         </div>
